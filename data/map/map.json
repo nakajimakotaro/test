@@ -1,0 +1,977 @@
+{
+    "MAP_WIDTH": 800,
+    "MAP_HEIGHT": 800,
+    "frame": 0,
+    "objectList": [
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 460,
+                "y": 700,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 460,
+                "y": 660,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 20,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 100,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 60,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 20,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 220,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 180,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "battery_minus",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 260,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/battery_minus.png",
+            "typeList": [
+                "block",
+                "battery_minus"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 300,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 100,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 380,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 340,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "iron",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 420,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/iron.png",
+            "typeList": [
+                "block",
+                "iron"
+            ]
+        },
+        {
+            "objectName": "goal",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 420,
+                "y": 700,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/goal.png",
+            "typeList": [
+                "goal"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 140,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 380,
+                "y": 500,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 380,
+                "y": 540,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 380,
+                "y": 620,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 380,
+                "y": 580,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 380,
+                "y": 660,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 460,
+                "y": 620,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 380,
+                "y": 700,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 460,
+                "y": 540,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 460,
+                "y": 580,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 460,
+                "y": 500,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 500,
+                "y": 500,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 540,
+                "y": 500,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "EMagnet",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 580,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/emagnet.png",
+            "typeList": [
+                "block",
+                "EMagnet"
+            ]
+        },
+        {
+            "objectName": "battery_plus",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 580,
+                "y": 620,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/battery_plus.png",
+            "typeList": [
+                "block",
+                "battery_plus"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 540,
+                "y": 540,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 540,
+                "y": 580,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 540,
+                "y": 620,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 540,
+                "y": 660,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 580,
+                "y": 660,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 620,
+                "y": 660,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 620,
+                "y": 620,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 660,
+                "y": 620,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 660,
+                "y": 580,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 700,
+                "y": 580,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 700,
+                "y": 540,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 740,
+                "y": 540,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 740,
+                "y": 500,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 740,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "block",
+            "layer": 50,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 620,
+                "y": 460,
+                "w": 40,
+                "h": 40
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/block.png",
+            "typeList": [
+                "block"
+            ]
+        },
+        {
+            "objectName": "player",
+            "layer": 80,
+            "alpha": 1,
+            "enableHit": true,
+            "collisionList": [],
+            "rect": {
+                "x": 100,
+                "y": 380,
+                "w": 34,
+                "h": 56
+            },
+            "move": {
+                "x": 0,
+                "y": 0
+            },
+            "imageSrc": "/data/object/player.png",
+            "typeList": [
+                "player"
+            ]
+        }
+    ]
+}

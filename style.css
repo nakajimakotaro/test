@@ -1,0 +1,53 @@
+#mapEditToggle:focus:hover {
+    outline: none;
+}
+#mapEditToggle {
+    -webkit-appearance: none;
+    background-color: #f7f6fb;
+    width: 50px;
+    height: 50px;
+}
+#mapEditToggle:checked {
+    background-color: #eb6ea5;
+}
+
+#mapEditToggle:not(:checked) ~ .selectChara img {
+    animation-name: hideMapEdit;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+}
+.selectChara input {
+    display: none;
+}
+.selectChara img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color: #f7f6fb;
+    animation-duration: 400ms;
+    animation-name: viewMapEdit;
+    animation-fill-mode: forwards;
+}
+.selectChara input:checked + img {
+    background-color: #eb6ea5;
+}
+
+@keyframes viewMapEdit{
+    from{
+        display: none;
+        transform: scaleY(0) translateY(-50px);
+    }
+    to{
+        transform: scaleY(1) translateY(0px);
+    }
+}
+@keyframes hideMapEdit{
+    from{
+        transform: scaleY(1);
+    }
+    to{
+        transform: scaleY(0);
+        display: none;
+    }
+}
