@@ -50,11 +50,11 @@ class MapEdit extends GameMap{
         //グリッドを描画
         for(let x of Array.from({length: this.GRID_POS_X + 1}, (v, k)=>k * this.GRID_SIZE)){
             context.moveTo(x, 0);
-            context.lineTo(x, this.gameManager.map.MAP_WIDTH);
+            context.lineTo(x, this.gameManager.map.MAP_HEIGHT);
         }
         for(let y of Array.from({length: this.GRID_POS_Y + 1}, (v, k)=>k * this.GRID_SIZE)){
             context.moveTo(0,   y);
-            context.lineTo(this.gameManager.map.MAP_HEIGHT, y);
+            context.lineTo(this.gameManager.map.MAP_WIDTH, y);
         }
         context.closePath();
         context.stroke();

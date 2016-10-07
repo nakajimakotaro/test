@@ -14,7 +14,7 @@ class GameMap{
         this.draw = this.draw.bind(this);
 
         this.MAP_WIDTH = 800;
-        this.MAP_HEIGHT = 800;
+        this.MAP_HEIGHT = 600;
 
         this.mapPath = "";
         this.isGoal = false;
@@ -83,9 +83,6 @@ class GameMap{
         context.beginPath();
         context.clearRect(0, 0, this.MAP_WIDTH, this.MAP_HEIGHT);
 
-        if(this.isGoal){
-            context.drawImage(this.goalImage, 200, 200);
-        }
 
         //描画順に並び替える
         this.objectList.sort((a,b)=>{
@@ -99,6 +96,10 @@ class GameMap{
         });
         for(let obj of this.objectList){
             obj.draw(context);
+        }
+
+        if(this.isGoal){
+            context.drawImage(this.goalImage, 200, 200);
         }
         context.stroke();
     }

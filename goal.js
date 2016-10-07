@@ -12,6 +12,7 @@ class Goal extends CanvasObject{
         super(gameManager);
         this.objectName = Goal.getObjectName();
         this.add_type("goal");
+        this.layer = 1000;
         this.rect.w = 40;
         this.rect.h = 40;
         this.image.src = Goal.imageSrc();
